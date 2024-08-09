@@ -6,7 +6,7 @@ export const AcmeLogo = () => (
       radius="lg"
       width="100%"
       alt={"item.title"}
-      className="h-[35px]"
+      className="h-[50px] w-[50px]"
       src={"/113096554.jpeg"}
     />
   </div>

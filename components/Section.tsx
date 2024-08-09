@@ -24,7 +24,7 @@ export default function Section(props: any) {
                     <div className="md:w-[50%]">
                         <p className="md:text-6xl text-xl text-black dark:text-white font-bold">{title}</p>
                         <p className="text-justify md:text-left mt-6 text-black dark:text-white leading-loose">{description}</p>
-                        <Button radius="full" className="mt-10 border bg-transparent text-white py-8 px-10 shadow-lg text-lg">
+                        <Button radius="full" className="mt-10 border border-indigo-950  bg-transparent text-black dark:text-white py-8 px-10 shadow-lg text-lg">
                             view more
                         </Button>
                     </div>
