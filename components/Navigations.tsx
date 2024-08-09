@@ -36,7 +36,6 @@ export default function Navigations() {
         <NavbarContent>
           <NavbarBrand>
             <AcmeLogo />
-            <p className="font-bold text-inherit">ACME</p>
           </NavbarBrand>
         </NavbarContent>
 
