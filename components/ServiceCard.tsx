@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import {Card, CardBody, CardFooter, Image} from "@nextui-org/react";
+import {Button, Card, CardBody, CardFooter, Image} from "@nextui-org/react";
 
 export default function ServiceCard() {
   const list = [
@@ -38,6 +38,7 @@ export default function ServiceCard() {
           <div className="px-10 mb-8 justify-between">
             <p className="text-center mb-6 font-bold text-3xl">{item.title}</p>
             <p className="text-sm">{item.description}</p>
+           
           </div>
         </Card>
       ))}

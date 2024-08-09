@@ -17,8 +17,8 @@ export default function Hero() {
                             that requires a certain expertise in your industry, have a novel mobile app idea to turn into reality or
                             simply need a better CRM system to up your output.</p>
                     </div>
-                    <div className="-mt-16">
-                        <Button radius="full" className="mb-12 border bg-transparent text-white py-8 px-10 shadow-lg text-3xl">
+                    <div className=" mx-4">
+                        <Button radius="full" className="mb-12 border bg-transparent text-white py-8 px-10 shadow-lg text-2xl">
                             Get Started Now
                         </Button>
                     </div>
