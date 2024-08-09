@@ -26,8 +26,8 @@ export default function ServiceCard() {
     <div className="flex items-center my-20">
       <div className="flex w-[100%] flex-wrap gap-10 items-center justify-center">
       {list.map((item, index) => (
-        <Card shadow="sm" className=" to-black  sm:w-[350px] w-[350px] h-[600px] " key={index} isPressable onPress={() => console.log("item pressed")} >
-          <CardBody className="overflow-visible shadow-none border-0">
+        <Card shadow="sm" className=" to-black dark:border border-gray-500 dark:bg-transparent  sm:w-[350px] w-[350px] h-[600px] " key={index} isPressable onPress={() => console.log("item pressed")} >
+          <CardBody className="bg-transparent overflow-visible shadow-none border-0">
             <Image
               radius="lg"
               width="100%"

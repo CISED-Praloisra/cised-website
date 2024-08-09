@@ -6,7 +6,7 @@ import Section from "@/components/Section";
 import SectionImageRight from "@/components/SectionImageRight";
 export default function Home() {
   return (
-    <div className="dark:bg-black bg-white">
+    <div className="dark:bg-indigo-950  bg-white">
         <Navigations/>
         <Hero/>
         <ServicesSection/>
