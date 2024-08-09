@@ -41,7 +41,7 @@ export default function Navigations() {
 
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="/">
               Home
             </Link>
           </NavbarItem>
@@ -51,7 +51,7 @@ export default function Navigations() {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="/contact">
               Contact
             </Link>
           </NavbarItem>
