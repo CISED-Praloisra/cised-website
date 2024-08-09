@@ -18,7 +18,7 @@ export default function Hero() {
                             simply need a better CRM system to up your output.</p>
                     </div>
                     <div className="-mt-16">
-                        <Button radius="full" className="mb-12 bg-gradient-to-tr from-pink-500 to-yellow-500 text-white py-10 px-20 shadow-lg text-3xl">
+                        <Button radius="full" className="mb-12 border bg-transparent text-white py-8 px-10 shadow-lg text-3xl">
                             Get Started Now
                         </Button>
                     </div>
